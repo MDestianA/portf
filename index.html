@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DestianPortfolio</title>
+   <link rel="stylesheet" href="dist/css/style.css">
+    
+
+</head>
+
+
+<!-- w-full bg-[#0f172a] bg-opacity-50 fixed border-b-2 border-slate-700 text-white -->
+<body class="bg-[#0b1120] scroll-smooth">
+
+    <!-- navbar -->
+    <header class="bg-transparent absolute top-0 left-0 w-full items-center z-20">
+        <div class="container max-w-5xl mx-auto">
+            <div class="flex items-center justify-between lg:mx-auto relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-xl bg-gradient-to-r from-sky-400 to-cyan-300 bg-clip-text text-transparent block py-6 animate-pulse">Destiann</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="navMenu"
+                        class="hidden absolute py-5 bg-[#0072ce] backdrop-blur border border-slate-700/60 shadow-lg shadow-sky-900/30 rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:border-0 lg:backdrop-blur-none lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base py-2 mx-8 text-slate-200 group-hover:text-sky-400 transition duration-300 flex">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base py-2 mx-8 text-slate-200 group-hover:text-sky-400 transition duration-300 flex">About Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#skills"
+                                    class="text-base py-2 mx-8 text-slate-200 group-hover:text-sky-400 transition duration-300 flex">Skills</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="text-base py-2 mx-8 text-slate-200 group-hover:text-sky-400 transition duration-300 flex">Contact</a>
+                            </li>
+                            <!-- dark mode -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- home -->
+    <section id="home" class="relative overflow-hidden items-center pt-40 bg-[#0b1120]">
+        <!-- glow dekorasi -->
+        <div class="pointer-events-none absolute -top-24 -left-24 w-96 h-96 rounded-full bg-sky-500/20 blur-3xl"></div>
+        <div class="pointer-events-none absolute top-40 right-0 w-80 h-80 rounded-full bg-indigo-500/20 blur-3xl"></div>
+
+        <div class="relative container max-w-5xl flex align-center mx-auto justify-center">
+            <div class="flex flex-wrap mx-6">
+                <div class="w-full self-center pb-14">
+                    <h1 class="font-medium text-slate-300">Hi Nama Saya </h1>
+                    <h1 class="font-bold text-4xl lg:text-5xl mb-4 bg-gradient-to-r from-white via-sky-200 to-sky-400 bg-clip-text text-transparent">Destian</h1>
+                    <p class="font-semibold text-sm lg:text-md leading-relaxed mb-6 text-slate-400">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Eaque ducimus et libero.</p>
+                    <div class="flex flex-wrap items-center gap-3">
+                        <a href="#contact" class="lg:py-3 lg:px-8 py-2 px-5 font-semibold text-white rounded-full bg-gradient-to-r from-sky-500 to-cyan-400 shadow-lg shadow-sky-500/30 hover:shadow-sky-400/50 hover:scale-105 transition duration-300">Hubungi Sekarang</a>
+                        <a href="#about" class="lg:py-3 lg:px-8 py-2 px-5 font-semibold text-sky-300 rounded-full border border-sky-500/50 hover:bg-sky-500/10 transition duration-300">Tentang Saya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="pt-36 pb-32 bg-gradient-to-tr text-white from-[#0b1120] from-60% to-sky-900">
+        <div class="container w-full lg:max-w-5xl mx-auto pt-12">
+            <h1 class="font-semibold lg:text-4xl text-2xl flex justify-center items-center pb-5 text-white">Tentang <span class="text-sky-400 ml-2">Saya</span></h1>
+            <div class="lg:w-2/3 w-4/5 mx-auto border border-sky-500/30 bg-slate-900/60 backdrop-blur rounded-lg shadow-lg shadow-sky-900/20">
+                <h1 class="lg:py-8 lg:px-16 p-4 text-[15px] font-semibold leading-relaxed lg:text-lg text-slate-300">
+                    Perkenalkan nama saya adalah Muhamad Destian Al-farizky Umur saya 17 tahun. Saya bersekolah di SMKN
+                    11 Bandung. Saya memiliki hobi bermain game dan menonton film. Saya memiliki cita-cita menjadi
+                    seorang front-end developer. Saya baru mengenal dasar programming pada tahun 2022 di jurusan RPL.
+                </h1>
+                <div class="border-t border-sky-500/30 w-2/3 mx-auto flex">
+                    <div class="lg:w-1/2 w-full flex flex-wrap mx-auto">
+                        <a href="https://instagram.com/mdesz9" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="instagram.png" alt="Instagram">
+                        </a>
+                        <!-- <a href="https://tiktok.com/destian_01" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="tik-tok.png" alt="TikTok">
+                        </a> -->
+                        <a href="https://github.com/MDestian" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="github.png" alt="GitHub">
+                        </a>
+                        <a href="https://youtube.com/m.destianalfarizky2778" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="youtube.png" alt="YouTube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="pt-36 pb-32 bg-slate-900">
+        <div class="container w-full lg:max-w-5xl mx-auto">
+            <div class="w-4/5 lg:w-3/5 mx-auto">
+                <h1 class="text-white font-semibold text-2xl text-center lg:text-4xl leading-relaxed flex justify-center items-center pb-5">Skill yang pernah saya pelajari</h1>
+                <p class="font-semibold text-slate-400 text-center text-sm lg:text-md leading-relaxed flex justify-center items-center pb-5">Saya memahami konsep-konsep dasar bahasa pemrograman dibawah ini   </p>
+                <div class="w-full mx-auto flex flex-wrap pt-8">
+                    <a href="" class="w-1/2 lg:w-1/3 p-4 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="html.png" alt="HTML">
+                    </a>
+                    <a href="" class="w-1/2 lg:w-1/3 p-4 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="css.png" alt="CSS">
+                    </a>
+                    <a href="" class="w-1/2 lg:w-1/3 p-4 lg:pt-8 pt-4 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="Tailwind-CSS1-900x0-removebg-preview.png" alt="Tailwind CSS">
+                    </a>
+                    <a href="" class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="csap.png" alt="C#">
+                    </a>
+                    <a href="" class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="js.png" alt="JavaScript">
+                    </a>
+                    <a href="" class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="php.png" alt="PHP">
+                    </a>
+                    <a href="" class="w-1/2 lg:w-1/3 lg:pt-16 p-4 pt-8 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="laravel.png" alt="Laravel">
+                    </a>
+                    <a href="" class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="sql.png" alt="SQL">
+                    </a>
+                    <a href="" class="w-1/2 lg:w-1/3 p-4 pt-8 grayscale opacity-80 hover:opacity-100 hover:grayscale-0 hover:bg-slate-800/60 rounded-xl transition duration-500 ease-in-out">
+                        <img src="bootstrap.png" alt="Bootstrap">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="pt-36 pb-32 bg-[#0b1120]">
+        <div class="container max-w-5xl mx-auto">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto mb-16 text-center">
+                    <h4 class="mb-4 font-semibold text-lg text-sky-400">Contact</h4>
+                    <h2 class="font-bold text-4xl text-white">Hubungi Sekarang</h2>
+                </div>
+               ```html
+```html
+<form id="contact-form">
+
+    <div class="w-full">
+        <div class="w-full mx-auto px-4 mb-6">
+            <label for="name" class="font-mono text-lg text-sky-400">
+                Nama
+            </label>
+
+            <input type="text" id="name" name="name" required
+                placeholder="Masukkan nama kamu"
+                class="bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 h-12 text-lg px-4 text-white w-full">
+        </div>
+    </div>
+
+    <div class="w-full">
+        <div class="w-full mx-auto px-4 mb-6">
+            <label for="email" class="font-mono text-lg text-sky-400">
+                Email
+            </label>
+
+            <input type="email" id="email" name="email" required
+                placeholder="Masukkan email kamu"
+                class="bg-slate-800 border border-slate-700 rounded-lg focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 h-12 text-lg px-4 text-white w-full">
+        </div>
+    </div>
+
+    <div class="w-full">
+        <div class="w-full mx-auto px-4 mb-6">
+            <label for="pesan" class="font-mono text-lg text-sky-400">
+                Pesan
+            </label>
+
+            <textarea name="message" id="pesan" required
+                placeholder="Tuliskan pesan kamu..."
+                class="w-full bg-slate-800 border border-slate-700 h-32 rounded-lg focus:outline-none focus:ring-sky-500 focus:ring-1 focus:border-sky-500 text-lg px-4 py-3 text-white"></textarea>
+        </div>
+    </div>
+
+    <div class="w-full px-4">
+
+        <button type="submit" id="btn-kirim"
+            class="bg-gradient-to-r from-sky-500 to-cyan-400 w-full rounded-lg py-3 text-base font-semibold text-white hover:opacity-90 hover:shadow-lg hover:shadow-sky-500/30 transition duration-300">
+
+            Hubungi Sekarang
+
+        </button>
+
+        <p id="status-pesan" class="text-center mt-4 text-sm"></p>
+
+    </div>
+
+</form>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="pt-24 pb-16 bg-slate-900 border-t border-slate-800 text-slate-300">
+        <div class="container">
+            <div class="flex mx-auto flex-wrap">
+                <div class="px-8 mb-12 lg:w-1/3 w-full">
+                    <h4 class="font-bold text-3xl mb-3 animate-pulse bg-gradient-to-r from-sky-400 to-cyan-300 bg-clip-text text-transparent w-fit">Destian</h4>
+                    <h2 class="font-medium mb-2 text-xl text-white">Hubungi</h2>
+                    <p>naitsed96@gmail.com</p>
+                    <p>jl. babakan cianjur</p>
+                    <p>Bandung</p>
+                </div>
+                <div class="px-8 mb-12 lg:w-1/3 w-full">
+                    <ul>
+                        <li>
+                            <a href="#home" class="inline-block py-2 font-semibold hover:text-sky-400 transition duration-300">Home</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#about" class="inline-block py-2 font-semibold hover:text-sky-400 transition duration-300">About</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#skills" class="inline-block py-2 font-semibold hover:text-sky-400 transition duration-300">Skill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#contact" class="inline-block py-2 font-semibold hover:text-sky-400 transition duration-300">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-4 mb-12 lg:w-1/3 w-full">
+                    <div class="w-1/2 flex flex-wrap mx-auto">
+                        <a href="https://instagram.com/mdesz9" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="instagram.png" alt="Instagram">
+                        </a>
+                        <!-- <a href="https://tiktok.com/destian_01" target="_blank" class="w-8 py-5 mx-auto hover:scale-125 transition duration-500">
+                            <img src="tik-tok.png" alt="TikTok"> -->
+
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js"></script>
+
+<script>
+    const publicKey = "iXiaQoG-jvaFBAYcz";
+
+    const serviceID = "service_hz1amhk";
+
+    const templateID = "template_hqrax5c";
+
+    const form = document.getElementById("contact-form");
+    const tombol = document.getElementById("btn-kirim");
+    const status = document.getElementById("status-pesan");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        tombol.disabled = true;
+        tombol.innerText = "Mengirim Pesan...";
+        status.innerText = "";
+
+        emailjs.sendForm(serviceID, templateID, form, {
+            publicKey: publicKey
+        })
+        .then(function(response) {
+
+            status.innerText = "Pesan berhasil dikirim!";
+            status.className = "text-center mt-4 text-sm text-green-400";
+
+            form.reset();
+
+            console.log("SUCCESS!", response.status);
+
+        })
+        .catch(function(error) {
+
+            status.innerText = "Pesan gagal dikirim. Silakan coba lagi.";
+            status.className = "text-center mt-4 text-sm text-red-400";
+
+            console.log("FAILED...", error);
+
+        })
+        .finally(function() {
+
+            tombol.disabled = false;
+            tombol.innerText = "Hubungi Sekarang";
+
+        });
+    });
+</script>
+</html>
